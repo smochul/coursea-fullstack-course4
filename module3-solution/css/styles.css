@@ -41,20 +41,29 @@ body {
 #menu-title {
 	width : 100%;
 	font-size: 3em;
-	text-align: center;
 }
 
 .menu-category {
-	background-color: #E8E8E8;
-	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+
 }
-/** Maybe its better to move margin to child objects**/
+
+.menu-category-heading, .menu-category-content, .menu-category-endsection {
+	background-color: #E8E8E8;
+}
+/** 	
+Maybe its better to move margin to child objects**/
+
 
 .menu-category .menu-category-heading {
 	text-align: center;
-	font-size: 2em;
+	font-size: 2em;	
 }
 
 .menu-category > .menu-category-content {
+	padding: 5px 10px 5px 10px;
+}
+
+.menu-category > .menu-category-endsection {
 	padding: 5px 10px 5px 10px;
 }
