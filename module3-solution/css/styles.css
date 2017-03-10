@@ -56,8 +56,8 @@ Maybe its better to move margin to child objects**/
 
 
 .menu-category .menu-category-heading {
-	text-align: center;
-	font-size: 2em;	
+	font-size: 2em;
+	margin: 0px 0px 0px 0px;	
 }
 
 .menu-category > .menu-category-content {
